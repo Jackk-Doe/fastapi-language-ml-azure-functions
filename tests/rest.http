@@ -1,0 +1,36 @@
+### NEED TO CHANGE ROUTE & PORT BEFORE RUNNING TEST
+
+### Test route
+GET http://0.0.0.0:8000
+
+### ENG TEST
+POST http://0.0.0.0:8000/predict
+Content-Type: application/json
+
+{
+    "text": "This is English sentence, not other language"
+}
+
+### FRENCH TEST
+POST http://0.0.0.0:8000/predict
+Content-Type: application/json
+
+{
+    "text": "Le pain français est l'arme la plus puissante"
+}
+
+### TURKISH TEST
+POST http://0.0.0.0:8000/predict
+Content-Type: application/json
+
+{
+    "text": "ekmek yemeyi severim"
+}
+
+### ARABIC TEST
+POST http://0.0.0.0:8000/predict
+Content-Type: application/json
+
+{
+    "text": "العرب هم من اخترع الجبر"
+}
