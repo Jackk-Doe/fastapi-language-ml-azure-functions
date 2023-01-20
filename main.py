@@ -1,4 +1,7 @@
-# PROTOTYPE
+'''
+PROTOTYPE app : a prototype off azure function app.
+run this prototype app from root directory with: $ python main
+'''
 
 import uvicorn
 from fastapi import FastAPI
