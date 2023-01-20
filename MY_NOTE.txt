@@ -1,5 +1,5 @@
 resouce : https://www.youtube.com/watch?v=h5wLuVDr0oc
-ml model from : https://github.com/AssemblyAI-Examples/ml-fastapi-docker-heroku
+ml model from : https://github.com/basil-b2s/Language-Detector
 
 init azure-function with:
     $ func init
